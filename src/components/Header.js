@@ -112,7 +112,7 @@ const Header = () => {
             value={searchQuery}
             onChange={handleSearchChange}
             onBlur={handleSearchBlur}
-            onKeyPress={handleSearchKeyPress}
+            onKeyUp={handleSearchKeyPress}
           />
         ) : (
           <button className="search-button" onClick={handleSearchClick}>
