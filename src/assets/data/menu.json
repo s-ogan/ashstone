@@ -1,0 +1,58 @@
+{
+    "menu": [
+      {
+        "title": "Demos",
+        "link": "#demos",
+        "submenu": [
+            { "title": "Demos 1", "link": "#feature1" },
+            { "title": "Demos 2", "link": "#feature2" },
+            { "title": "Demos 3", "link": "#feature3" }
+          ],
+          "submenuIcon": true
+      },
+      {
+        "title": "Post",
+        "link": "#post",
+        "submenu": [
+          { "title": "Post 1", "link": "#post1" },
+          { "title": "Post 2", "link": "#post2" },
+          { "title": "Post 3", "link": "#post3" }
+        ],
+        "submenuIcon": true
+      },
+      {
+        "title": "Features",
+        "link": "#features",
+        "submenu": [
+          { "title": "Feature 1", "link": "#feature1" },
+          { "title": "Feature 2", "link": "#feature2" },
+          { "title": "Feature 3", "link": "#feature3" }
+        ],
+        "submenuIcon": true
+      },
+      {
+        "title": "Categories",
+        "link": "#categories",
+        "submenu": [
+          { "title": "Categories 1", "link": "#categories1" },
+          { "title": "Categories 2", "link": "#categories2" },
+          { "title": "Categories 3", "link": "#categories3" }
+        ],
+        "submenuIcon": true
+      },
+      {
+        "title": "Shop",
+        "link": "#shop",
+        "submenu": [
+          { "title": "Shop 1", "link": "#shop1" },
+          { "title": "Shop 2", "link": "#shop2" },
+          { "title": "Shop 3", "link": "#shop3" }
+        ],
+        "submenuIcon": true
+      },
+      {
+        "title": "Buy Now",
+        "link": "#buy-now"
+      }
+    ]
+  }

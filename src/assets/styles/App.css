@@ -1,0 +1,150 @@
+/* Общие стили */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.desktop-menu nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.desktop-menu input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.mobile-menu button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.mobile-menu nav {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+}
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.container {
+  width: 100%;
+  max-width: 72.5rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10.313rem;
+}
+
+.post-card {
+  flex: 1 1 calc(33.333% - 40px);
+  background: #fff;
+  padding: 0;
+}
+
+.post-card>*:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+/* Медиазапросы для планшетов */
+@media (max-width: 1024px) {
+  .post-card {
+    flex: 1 1 calc(50% - 32px); /* 2 колонки с промежутком между ними */
+  }
+}
+
+/* Медиазапросы для мобильных устройств */
+@media (max-width: 768px) {
+  .post-card {
+    flex: 1 1 100%; /* 1 колонка */
+    padding: 0 20px;
+  }
+}
+
+.tags {
+  margin: 0;
+  color: #EB0028;
+  font-size: 0.813rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #000000;
+
+}
+
+.author-row {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.75rem;
+  color: #9B9B9B;
+
+}
+
+.autor {
+  color: #000000;
+  font-size: 0.75rem;
+}
+
+.oval {
+  padding-left: 0.313rem;
+}
+
+.date {
+  padding-left: 0.313rem;
+}
+
+.views {
+  padding-left: 0.313rem;
+}
+
+.text {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #929292;
+}
+
+.post-card img {
+  max-width: 100%;
+}
+
+.post-image {
+  margin: 0;
+  width: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
