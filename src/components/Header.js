@@ -104,6 +104,7 @@ const Header = () => {
         <div className="logo">
           <img src={logo} alt="Logo" />
         </div>
+        <div className="search-div">
         {searchVisible ? (
           <input
             type="text"
@@ -119,6 +120,8 @@ const Header = () => {
             <img src={searchIcon} alt="Search" />
           </button>
         )}
+        </div>
+        
       </div>
       <div className="header-bottom">
         <nav className="desktop-menu">

@@ -37,15 +37,17 @@ body {
 
 /* Логотип */
 .logo {
-  flex: 1;
-  display: flex;
   justify-content: center;
   text-align: center;
+  flex-shrink: 0;
+  margin: 0 auto;
 
 }
 
 /* Кнопка поиска */
 .search-button {
+  position:absolute ;
+  right: 0;
   width: 1.125rem; /* 18px */
   height: 1.125rem; /* 18px */
   background: none;
@@ -65,6 +67,11 @@ body {
   padding: 0.5rem;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
 }
 
 /* Вторая строка */
