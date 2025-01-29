@@ -34,7 +34,7 @@ body {
 
 .mobile-menu nav {
   position: absolute;
-  top: 50px;
+  top: 3.125rem;
   left: 0;
   background-color: #333;
   color: white;
@@ -64,13 +64,13 @@ body {
 }
 
 .post-card>*:not(:last-child) {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 /* Медиазапросы для планшетов */
 @media (max-width: 1024px) {
   .post-card {
-    flex: 1 1 calc(50% - 32px); /* 2 колонки с промежутком между ними */
+    flex: 1 1 calc(50% - 2rem); /* 2 колонки с промежутком между ними */
   }
 }
 
@@ -78,7 +78,7 @@ body {
 @media (max-width: 768px) {
   .post-card {
     flex: 1 1 100%; /* 1 колонка */
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
 }
 
